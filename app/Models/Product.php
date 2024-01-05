@@ -6,9 +6,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 
-class Product extends Model
+class Product extends AbstractModelDefault
 {
-    use HasFactory;
 
     protected $fillable =
         [
