@@ -10,6 +10,7 @@ use Illuminate\Http\JsonResponse;
 
 class RegisterController extends Controller
 {
+
     public function Register(RegisterRequest $register):JsonResponse
     {
         return response()->json(['user' => (User::create(RegisterDTO::fromRequest($register)->toArray()))]);
