@@ -8,6 +8,17 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+
+/**
+ * @method static static make(mixed[] $attributes)
+ * @method static static create(mixed[] $attributes)
+ * @method static static find(mixed[] $attributes)
+ * @method static static firstOrNew(mixed[] $attributes)
+ * @method static static findOrFail(mixed[] $attributes)
+ * @method static static paginate(mixed $attributes)
+ */
+
+
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
@@ -42,4 +53,5 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
 }
