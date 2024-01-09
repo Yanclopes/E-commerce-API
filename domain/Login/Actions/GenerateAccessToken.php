@@ -4,7 +4,7 @@ namespace Domain\Login\Actions;
 
 use App\Models\User;
 use Carbon\Carbon;
-use Domain\Login\DTO\LoginDTO;
+use Domain\Login\DTOs\LoginDTO;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Support\Facades\Auth;
 use function config;

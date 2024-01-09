@@ -1,6 +1,6 @@
 <?php
 
-namespace Domain\Shared\Interfaces;
+namespace Domain\Shared\interfaces;
 
 use Illuminate\Foundation\Http\FormRequest;
 

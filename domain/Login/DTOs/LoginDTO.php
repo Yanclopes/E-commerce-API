@@ -1,6 +1,6 @@
 <?php
 
-namespace Domain\Login\DTO;
+namespace Domain\Login\DTOs;
 
 use Domain\Shared\Interfaces\DataTransferObjectInterface;
 use Illuminate\Foundation\Http\FormRequest;

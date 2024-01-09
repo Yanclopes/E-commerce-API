@@ -4,7 +4,7 @@ namespace App\Http\Controllers\login;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginRequest;
-use Domain\Login\DTO\LoginDTO;
+use Domain\Login\DTOs\LoginDTO;
 use App\Http\Resources\LoginResource;
 use Domain\Login\Actions\GenerateAccessToken;
 
